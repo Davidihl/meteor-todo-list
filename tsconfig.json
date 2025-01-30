@@ -30,6 +30,9 @@
       "meteor/*": [
         "node_modules/@types/meteor/*",
         ".meteor/local/types/packages.d.ts"
+      ],
+      "meteor/react-meteor-data": [
+        "node_modules/@types/meteor/react-meteor-data.d.ts"
       ]
     },
     "moduleResolution": "node",
@@ -38,8 +41,5 @@
     "esModuleInterop": true,
     "preserveSymlinks": true
   },
-  "exclude": [
-    "./.meteor/**",
-    "./packages/**"
-  ]
+  "exclude": ["./.meteor/**", "./packages/**"]
 }
